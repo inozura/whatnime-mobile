@@ -1,17 +1,25 @@
 export type RootStackParamList = {
   Root: undefined;
   NotFound: undefined;
+  DetailAnime: undefined;
+  DetailManga: undefined;
+  ListScreen: {type: string, subType?: string, title: string, itemType?: string};
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Home: undefined;
+  Search: undefined;
+  Settings: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type Home = {
+  Home: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type Search = {
+  Search: undefined;
+};
+
+export type Settings = {
+  Settings: undefined;
 };

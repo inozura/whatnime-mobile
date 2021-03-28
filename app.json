@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "whatnime",
-    "slug": "whatnime",
+    "name": "Whatnime",
+    "slug": "Whatnime",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/MainLogo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/splashscreen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1f1f1f"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -19,12 +19,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.inozura.whatnime"
     },
     "android": {
+      "versionCode": 1,
+      "package": "com.inozura.whatnime",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/images/adaptiveicon.png",
+        "backgroundColor": "#1f1f1f"
       }
     },
     "web": {

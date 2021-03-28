@@ -6,19 +6,25 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Home: {
             screens: {
-              TabOneScreen: 'one',
+              HomeScreen: 'home',
             },
           },
-          TabTwo: {
+          Search: {
             screens: {
-              TabTwoScreen: 'two',
+              SearchScreen: 'search',
+            },
+          },
+          Settings: {
+            screens: {
+              SettingsScreen: 'settings',
             },
           },
         },
       },
       NotFound: '*',
+      DetailAnime: "*"
     },
   },
 };
